@@ -90,32 +90,32 @@ const AuthPage = () => {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
             <div style={{ background: '#fff', borderRadius: 12, padding: '1.5rem', boxShadow: '0 2px 8px rgba(74,144,226,0.08)', cursor: 'pointer' }} onClick={() => router.push('/portfolio')}>
               <h3 style={{ color: '#4A90E2', marginBottom: '0.5rem' }}>Portfolio Overview</h3>
-              <p style={{ color: '#7f8c8d', margin: 0 }}>View your investment portfolio and current holdings</p>
+              <p style={{ color: '#666', margin: 0 }}>View your investment portfolio and current holdings</p>
             </div>
 
             <div style={{ background: '#fff', borderRadius: 12, padding: '1.5rem', boxShadow: '0 2px 8px rgba(74,144,226,0.08)', cursor: 'pointer' }} onClick={() => router.push('/add-portfolio')}>
               <h3 style={{ color: '#4A90E2', marginBottom: '0.5rem' }}>Add Investment</h3>
-              <p style={{ color: '#7f8c8d', margin: 0 }}>Add new assets to your portfolio</p>
+              <p style={{ color: '#666', margin: 0 }}>Add new assets to your portfolio</p>
             </div>
 
             <div style={{ background: '#fff', borderRadius: 12, padding: '1.5rem', boxShadow: '0 2px 8px rgba(74,144,226,0.08)', cursor: 'pointer' }} onClick={() => router.push('/assets')}>
               <h3 style={{ color: '#4A90E2', marginBottom: '0.5rem' }}>Asset Management</h3>
-              <p style={{ color: '#7f8c8d', margin: 0 }}>Manage your investment assets with real-time prices</p>
+              <p style={{ color: '#666', margin: 0 }}>Manage your investment assets with real-time prices</p>
             </div>
 
             <div style={{ background: '#fff', borderRadius: 12, padding: '1.5rem', boxShadow: '0 2px 8px rgba(74,144,226,0.08)', cursor: 'pointer' }} onClick={() => router.push('/performance')}>
               <h3 style={{ color: '#4A90E2', marginBottom: '0.5rem' }}>Performance</h3>
-              <p style={{ color: '#7f8c8d', margin: 0 }}>View your portfolio performance and analytics</p>
+              <p style={{ color: '#666', margin: 0 }}>View your portfolio performance and analytics</p>
             </div>
 
             <div style={{ background: '#fff', borderRadius: 12, padding: '1.5rem', boxShadow: '0 2px 8px rgba(74,144,226,0.08)', cursor: 'pointer' }} onClick={() => router.push('/alerts')}>
               <h3 style={{ color: '#4A90E2', marginBottom: '0.5rem' }}>Alerts</h3>
-              <p style={{ color: '#7f8c8d', margin: 0 }}>Configure price alerts and notifications</p>
+              <p style={{ color: '#666', margin: 0 }}>Configure price alerts and notifications</p>
             </div>
 
             <div style={{ background: '#fff', borderRadius: 12, padding: '1.5rem', boxShadow: '0 2px 8px rgba(74,144,226,0.08)', cursor: 'pointer' }} onClick={() => setShowModal(true)}>
               <h3 style={{ color: '#50E3C2', marginBottom: '0.5rem' }}>Premium Features</h3>
-              <p style={{ color: '#7f8c8d', margin: 0 }}>Subscribe for advanced analytics and features</p>
+              <p style={{ color: '#666', margin: 0 }}>Subscribe for advanced analytics and features</p>
             </div>
           </div>
         </div>
